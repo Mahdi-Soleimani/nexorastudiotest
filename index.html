@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nexora AI Studio | خانه</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="home">
+  <nav>
+    <div class="container navbar">
+      <a class="logo" href="index.html">
+        <span class="logo-mark">N</span>
+        <span>Nexora AI Studio</span>
+      </a>
+      <div class="nav-links">
+        <a data-page="home" href="index.html">خانه</a>
+        <a data-page="services" href="services.html">راهکارها</a>
+        <a data-page="portfolio" href="portfolio.html">نمونه‌کارها</a>
+        <a data-page="academy" href="academy.html">آکادمی</a>
+        <a data-page="team" href="team.html">درباره ما</a>
+        <a data-page="careers" href="careers.html">فرصت‌های شغلی</a>
+        <a data-page="contact" href="contact.html">تماس با ما</a>
+        <a class="btn btn-primary" href="contact.html">درخواست مشاوره رایگان</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="container hero-grid">
+      <div>
+        <div class="badge">ایجنت‌های هوشمند | اتوماسیون | داده</div>
+        <h1 class="title-xl">هوش مصنوعی، <span class="highlight">نیروی محرکه</span> کسب‌وکار شماست.</h1>
+        <p class="lead">نکسورا تیمی از معماران هوش مصنوعی، مهندسان اتوماسیون و تحلیلگران داده است که برای سرعت‌بخشی به سازمان‌ها شکل گرفته. ما فرآیندهای فرساینده را با ایجنت‌های هوشمند، خطوط خودکار و داشبوردهای تصمیم‌ساز جایگزین می‌کنیم.</p>
+        <div class="metrics">
+          <div class="metric"><strong>۳x</strong><span>شتاب در تحویل پروژه</span></div>
+          <div class="metric"><strong>۶۵٪</strong><span>صرفه‌جویی سالانه در هزینه نیروی انسانی</span></div>
+          <div class="metric"><strong>۲۴/۷</strong><span>پاسخگویی خودکار به مشتریان</span></div>
+        </div>
+        <div style="margin-top:18px; display:flex; gap:10px; flex-wrap: wrap;">
+          <a class="btn btn-primary" href="services.html">مشاهده راهکارها</a>
+          <a class="btn btn-outline" href="portfolio.html">نمونه‌کارهای منتخب</a>
+        </div>
+      </div>
+      <div class="panel roi-box">
+        <div>
+          <h3>ماشین‌حساب ROI سریع</h3>
+          <p class="lead">ببینید اتوماسیون نکسورا چه مقدار هزینه پنهان نیروی انسانی را آزاد می‌کند.</p>
+          <div style="display: grid; gap: 10px;">
+            <label>ساعات تکراری هفتگی تیم شما (ساعت)
+              <input type="number" id="roi-hours" value="120" min="0">
+            </label>
+            <label>هزینه هر ساعت نیروی انسانی (تومان)
+              <input type="number" id="roi-rate" value="250000" min="0">
+            </label>
+          </div>
+        </div>
+        <div>
+          <p class="muted">صرفه‌جویی تخمینی</p>
+          <div id="roi-result" class="roi-result"></div>
+          <p class="lead">براساس کاهش ۶۵٪ حجم کارهای تکراری و ۵۲ هفته کاری در سال.</p>
+          <a class="btn btn-primary" href="contact.html">یک مشاوره ۳۰ دقیقه‌ای بگیرید</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="container">
+      <div class="panel marquee">
+        <span>OpenAI</span>
+        <span>n8n</span>
+        <span>Python</span>
+        <span>FastAPI</span>
+        <span>PostgreSQL</span>
+        <span>LangChain</span>
+        <span>PowerBI</span>
+        <span>Docker</span>
+        <span>Supabase</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2>چطور کمک می‌کنیم؟</h2>
+      <p class="section-lead">سه ستون اصلی خدمات نکسورا باعث می‌شود یک تیم عملیاتی، فروش و پشتیبانی تمام‌وقت در کنار شما باشد.</p>
+      <div class="grid grid-3">
+        <div class="service-card">
+          <div class="service-icon">🤖</div>
+          <h3>ایجنت‌های هوشمند</h3>
+          <p class="lead">دستیارانی که روی داده‌های شما آموزش دیده‌اند و در تلگرام، وب‌سایت یا CRM پاسخ می‌دهند.</p>
+          <div class="tags"><span class="tag">RAG</span><span class="tag">24/7</span><span class="tag">Multi-Channel</span></div>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">⚡</div>
+          <h3>اتوماسیون n8n</h3>
+          <p class="lead">یکپارچه‌سازی CRM، حسابداری و پیام‌رسان‌ها با صدها نود n8n و فلوهای مقاوم در برابر خطا.</p>
+          <div class="tags"><span class="tag">CRM Sync</span><span class="tag">Billing</span><span class="tag">Alerts</span></div>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">📊</div>
+          <h3>تحلیل و داشبورد</h3>
+          <p class="lead">کانال‌های داده را تمیز، استاندارد و روی داشبوردهای مدیریتی برای تصمیم‌گیری آماده می‌کنیم.</p>
+          <div class="tags"><span class="tag">ETL</span><span class="tag">Data Quality</span><span class="tag">BI</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="grid grid-2">
+        <div class="panel">
+          <h3>روش کار نکسورا</h3>
+          <div class="timeline">
+            <div class="timeline-step">
+              <strong>۱. کشف و طراحی</strong>
+              <p class="lead">درک فرآیندهای فعلی شما، شناسایی اتلاف‌ها و طراحی تجربه مطلوب.</p>
+            </div>
+            <div class="timeline-step">
+              <strong>۲. ساخت سریع</strong>
+              <p class="lead">نمونه اولیه در ۱۰ روز، اتصال به سیستم‌های فعلی و تست بار.</p>
+            </div>
+            <div class="timeline-step">
+              <strong>۳. راه‌اندازی و پایش</strong>
+              <p class="lead">استقرار امن، داشبورد KPI و پشتیبانی SLA برای اطمینان از عملکرد.</p>
+            </div>
+          </div>
+        </div>
+        <div class="panel">
+          <h3>۳ نمونه از پروژه‌های اخیر</h3>
+          <div class="project-card" style="margin-bottom:12px;">
+            <div class="project-meta">ربات پشتیبان تلگرام | صنعت آموزش آنلاین</div>
+            <h4>کاهش ۸۰٪ تیکت‌های پشتیبانی</h4>
+            <p>ایجنت RAG روی نالج‌بیس داخلی + اتصال به CRM برای ثبت خودکار مکالمات.</p>
+          </div>
+          <div class="project-card" style="margin-bottom:12px;">
+            <div class="project-meta">اتوماسیون مالی | شرکت لجستیک</div>
+            <h4>حذف ۳ ساعت کار دستی روزانه</h4>
+            <p>اتصال n8n به ERP و بانک، صدور فاکتور و پیگیری پرداخت با وب‌هوک.</p>
+          </div>
+          <div class="project-card">
+            <div class="project-meta">بینایی ماشین | خط تولید</div>
+            <h4>کیفیت‌سنجی در لحظه</h4>
+            <p>مدل پردازش تصویر برای تشخیص عیوب + اعلان آنی در تلگرام تیم کنترل کیفیت.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="panel">
+        <div style="display:flex; gap:12px; align-items: center; flex-wrap: wrap;">
+          <div>
+            <h3>برای دیدن دمو آماده‌اید؟</h3>
+            <p class="lead">یک جلسه ۳۰ دقیقه‌ای رایگان رزرو کنید تا روی یک مشکل واقعی شما، یک فلو هوشمند بسازیم.</p>
+          </div>
+          <a class="btn btn-primary" href="contact.html">رزرو جلسه</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footer-grid">
+      <div>
+        <div class="logo" style="margin-bottom:10px;">
+          <span class="logo-mark">N</span>
+          <span>Nexora AI Studio</span>
+        </div>
+        <p>ما تیمی از مهندسان هوش مصنوعی، اتوماسیون و محصول هستیم که برای ساخت کارکنان دیجیتال و عملیات بدون اصطکاک کنار هم ایستاده‌ایم.</p>
+      </div>
+      <div>
+        <strong>مسیرهای سریع</strong>
+        <div class="tags" style="margin-top:8px;">
+          <a class="tag" href="services.html">راهکارها</a>
+          <a class="tag" href="portfolio.html">نمونه‌کارها</a>
+          <a class="tag" href="team.html">تیم</a>
+        </div>
+      </div>
+      <div>
+        <strong>ارتباط</strong>
+        <p class="lead">hello@nexora.studio</p>
+        <div class="socials">
+          <a href="https://www.linkedin.com" aria-label="LinkedIn">in</a>
+          <a href="https://github.com" aria-label="GitHub">GH</a>
+          <a href="https://t.me" aria-label="Telegram">TG</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="chat-widget">
+    <button class="chat-toggle" aria-label="چت هوشمند">💬</button>
+    <div class="chat-panel">
+      <h4>سلام! من ایجنت هوشمند نکسورا هستم.</h4>
+      <p>می‌خوای نمونه‌کارهای مرتبط با صنعت خودت رو نشونت بدم؟ یا یک فلو آزمایشی برایت بسازم؟</p>
+      <a class="btn btn-primary" href="contact.html">شروع گفتگو</a>
+    </div>
+  </div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
